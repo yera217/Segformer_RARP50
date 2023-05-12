@@ -1,0 +1,66 @@
+(dl2023) deep@ku20:~/DL_project/Segformer_RARP50$ tools/dist_test.sh work_dirs/segformer.b1.512x512.rarp50.160k.finetune.class_weight/yera_dwnsampled_finetune_segformer.b1.512x512.rarp50.180k.py work_dirs/segformer.b1.512x512.rarp50.160k.finetune.class_weight/iter_180000.pth 
+2023-05-09 20:15:09,491 - mmseg - INFO - Loaded 1181 images
+Use load_from_local loader
+[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>] 1181/1181, 4.5 task/s, elapsed: 264s, ETA:     0s
+writing results to work_dirs/res.pkl
+per class results:
+
++-----------------+-------+-------+
+| Class           | IoU   | Acc   |
++-----------------+-------+-------+
+| anatomy         | 96.52 | 98.06 |
+| tool_clasper    | 72.26 | 85.18 |
+| tool_wrist      | 72.03 | 83.37 |
+| tool_shaft      | 88.81 | 92.93 |
+| suturing_needle | 60.92 | 80.04 |
+| thread          | 41.49 | 81.11 |
+| suction_tool    | 37.06 | 48.02 |
+| needle_holder   | 78.88 | 92.51 |
+| clamps          | 36.69 | 50.89 |
+| catheter        | 85.65 | 95.24 |
++-----------------+-------+-------+
+Summary:
+
++--------+-------+-------+-------+
+| Scope  | mIoU  | mAcc  | aAcc  |
++--------+-------+-------+-------+
+| global | 67.03 | 80.74 | 96.55 |
++--------+-------+-------+-------+
+(dl2023) deep@ku20:~/DL_project/Segformer_RARP50$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
